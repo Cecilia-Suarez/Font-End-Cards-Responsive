@@ -136,11 +136,8 @@ footer a{
     color: #00669F;
 }
 
-@media (max-width: 1380px) {
-    main{
-        flex-direction: column;
-    }
-
+@media (max-width: 1390px) {
+    
     .Cards{
         margin-bottom: 3rem;
     }
@@ -153,6 +150,12 @@ footer a{
         position: relative;
         bottom: 0%;
         width: 100%;
+    }
+
+    .material-icons{
+        align-self: flex-end;
+        justify-self: center;
+        position: absolute;
     }
 }
 
